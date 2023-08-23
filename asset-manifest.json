@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-hospitalApp/static/css/main.c28aa2cb.css",
+    "main.js": "/react-hospitalApp/static/js/main.98f3e813.js",
+    "static/media/logo.png": "/react-hospitalApp/static/media/logo.4c3497699e64b8f2141a.png",
+    "index.html": "/react-hospitalApp/index.html",
+    "main.c28aa2cb.css.map": "/react-hospitalApp/static/css/main.c28aa2cb.css.map",
+    "main.98f3e813.js.map": "/react-hospitalApp/static/js/main.98f3e813.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c28aa2cb.css",
+    "static/js/main.98f3e813.js"
+  ]
+}
