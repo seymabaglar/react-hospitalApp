@@ -1,0 +1,75 @@
+/*? Global Stlye for App */
+body {
+  background: rgb(85, 133, 189);
+  background: linear-gradient(
+    90deg,
+    rgba(85, 133, 189, 0.91) 0%,
+    rgb(151, 170, 194) 51%,
+    rgba(85, 133, 189, 0.91) 100%
+  );
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.logo:hover {
+  border-radius: 60%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.title {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 4px;
+  padding-top: 1rem;
+  color: rgb(15, 109, 116);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.doctors{
+  font-family: 'Lato', sans-serif;
+}
+.title:hover {
+  font-size: 55px;
+  letter-spacing: 8px;
+  transition: all ease 0.5s;
+}
+.doctor-img {
+  transition: transform 0.5s;
+  border-radius: 1rem;
+  max-height: 160px;
+}
+.doctor-img:hover {
+  transform: scale(1.05);
+  border: 2px solid rgb(12, 67, 71);
+  cursor: pointer;
+}
+
+.appointments {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 275px;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: start;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  position: relative;
+  box-shadow: 0px 3px 3px rgba(0 0, 0, 0.3);
+}
+
+.consulted {
+  border-left: 1rem solid rgb(166, 18, 189);
+}
+.consulted::after {
+  content: "CONSULTED";
+  background-color: rgb(166, 18, 189);
+  color: white;
+  font-size: 2rem;
+  border-radius: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 0.5rem;
+  transform: translate(-50%, -50%);
+}
